@@ -20,20 +20,21 @@
   ms-border-radius: @radius;
 }
 
-.button(@width, @height, @bgColor, ) {
+.button(@width, @height, @btn-bg-color, @font-color, @font-size ) {
+  .border-radius();
   width: @width;
   height: @height;
-  background-color: @bgColor;
+  background-color: @btn-bg-color;
+  font-size: @font-size;
+  color: @font-color;
 
-}
+  @media @phone {
+    width: 100% !important;
+  }
 
+  &:hover {
+    background-color: @porcelain;
+    color: @btn-bg-color;
+  }
 
-.set-text-color (@bg-color) when (lightness(@bg-color) >= 50%) {
-  color: @dark;
-  background: @bg-color;
-}
-
-.set-text-color (@bg-color) when (lightness(@bg-color) < 50%) {
-  color: @light;
-  background: @bg-color;
 }

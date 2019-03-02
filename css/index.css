@@ -284,11 +284,25 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  border-radius: 4px;
-  display: inline-block;
-  font-size: 16px;
-  color: #fff;
-  background-color: black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  o-border-radius: 10px;
+  ms-border-radius: 10px;
+  width: 120px;
+  height: 45px;
+  background-color: #22283A;
+  font-size: 1.8rem;
+  color: #F6F7F8;
+}
+@media ( max-width: 500px ) {
+  .home .walk .walk-text .btn {
+    width: 100% !important;
+  }
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -300,6 +314,11 @@ footer {
     width: 100%;
     margin: auto;
     order: 0;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .walk .walk-img {
+    order: -1;
   }
 }
 .home .walk .walk-img img {
