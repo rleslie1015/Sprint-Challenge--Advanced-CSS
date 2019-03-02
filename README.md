@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+The main difference is that in adaptive there are different templates for different devices, but in responsive, there is one template for all devices.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Starting with a mobile first mindset is recommended because it means you design for smaller resolutions for phones and then tablets and then desktop and then you implement media queries using `min-width' to create breakpoints for when the resolution changes or a larger device is used. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It makes calculation easier.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is when you used installed software to write less code. It's takes getting used to and is not "easy" but it does improve your code by reducing errors and allowing shorthand. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love the @import because it really helps cut down the time spent on a project. I still have some trouble with nesting and getting code to work when I'm not sure where to put it in the file. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -61,9 +71,9 @@ Follow these steps to set up your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
@@ -108,9 +118,9 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+* [x] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [x  Use at least 2 parameters to create your button
 
 * [ ] Create a hover state that swaps the background color and font color of the base button styles.
 
@@ -118,9 +128,9 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
